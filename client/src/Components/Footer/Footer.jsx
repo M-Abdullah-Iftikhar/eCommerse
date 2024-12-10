@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../Assets/logo.png";
 
-import { IoLogoWhatsapp } from "react-icons/io5";
+
 import logoChar from "../Assets/mtChars.png";
 import logoLady from "../Assets/mtLady.png";
 import { FaInstagram } from "react-icons/fa6";
@@ -37,9 +37,7 @@ const Footer = () => {
             </a>
           </div>
           <div class="flex gap-10">
-            <a href="#" class="text-gray-600 text-xl sm:text-2xl hover:text-gray-800">
-              <IoLogoWhatsapp />
-            </a>
+           
             <a href="#" class="text-gray-600 text-xl sm:text-2xl hover:text-gray-800">
               <FaInstagram />
             </a>
