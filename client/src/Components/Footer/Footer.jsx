@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../Assets/logo.png";
+import { IoSomeIcon } from 'react-icons/io5';
+
 import { IoLogoWhatsapp } from "react-icons/io5";
 import logoChar from "../Assets/mtChars.png";
 import logoLady from "../Assets/mtLady.png";
