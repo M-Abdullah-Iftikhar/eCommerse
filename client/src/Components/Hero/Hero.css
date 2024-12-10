@@ -1,0 +1,24 @@
+.heroimg{
+    width: 500px;
+}
+
+@media (max-width:1300px){
+    .heroimg{
+        width: 400px;
+    }
+}
+@media (max-width:900px){
+    .heroimg{
+        width: 300px;
+    }
+}
+@media (max-width:600px){
+    .heroimg{
+        width: 250px;
+    }
+}
+@media (max-width:510px){
+    .heroimg{
+        width: 500px;
+    }
+}

@@ -1,0 +1,229 @@
+.card-items{
+    width: 300px;
+}
+
+.title{
+    font-size: 16px;
+}
+.newprice{
+    font-size: 17px;
+}
+.oldprice{
+    font-size: 17px;
+}
+
+@media (max-width:1284px) {
+    .card-items{
+        width: 280px;
+    }
+}
+@media (max-width:1204px) {
+    .card-items{
+        width: 260px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .newprice{
+        font-size: 16px;
+    }
+    .oldprice{
+        font-size: 16px;
+    }
+}
+@media (max-width:1124px) {
+    .card-items{
+        width: 240px;
+    }
+    .title{
+        font-size: 14px;
+    }
+    .newprice{
+        font-size: 15px;
+    }
+    .oldprice{
+        font-size: 15px;
+    }
+}
+@media (max-width:1020px) {
+    .card-items{
+        width: 220px;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .newprice{
+        font-size: 13px;
+    }
+    .oldprice{
+        font-size: 13px;
+    }
+}
+@media (max-width:940px) {
+    .card-items{
+        width: 260px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .newprice{
+        font-size: 15px;
+    }
+    .oldprice{
+        font-size: 15px;
+    }
+}
+@media (max-width:836px) {
+    .card-items{
+        width: 240px;
+    }
+    .title{
+        font-size: 14px;
+    }
+    .newprice{
+        font-size: 14px;
+    }
+    .oldprice{
+        font-size: 14px;
+    }
+}
+@media (max-width:776px) {
+    .card-items{
+        width: 220px;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .newprice{
+        font-size: 13px;
+    }
+    .oldprice{
+        font-size: 13px;
+    }
+}
+@media (max-width:717px) {
+    .card-items{
+        width: 200px;
+    }
+    .title{
+        font-size: 11px;
+    }
+    .newprice{
+        font-size: 12px;
+    }
+    .oldprice{
+        font-size: 12px;
+    }
+}
+@media (max-width:640px) {
+    .card-items{
+        width: 260px;
+    }
+    .title{
+        font-size: 13px;
+    }
+    .newprice{
+        font-size: 14px;
+    }
+    .oldprice{
+        font-size: 14px;
+    }
+}
+@media (max-width:540px) {
+    .card-items{
+        width: 240px;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .newprice{
+        font-size: 13px;
+    }
+    .oldprice{
+        font-size: 13px;
+    }
+}
+@media (max-width:510px) {
+    .card-items{
+        width: 220px;
+    }
+    .title{
+        font-size: 11px;
+    }
+    .newprice{
+        font-size: 12px;
+    }
+    .oldprice{
+        font-size: 12px;
+    }
+}
+@media (max-width:468px) {
+    .card-items{
+        width: 200px;
+    }
+    .title{
+        font-size: 10px;
+    }
+    .newprice{
+        font-size: 11px;
+    }
+    .oldprice{
+        font-size: 11px;
+    }
+}
+@media (max-width:429px) {
+    .card-items{
+        width: 180px;
+    }
+    .title{
+        font-size: 10px;
+    }
+    .newprice{
+        font-size: 11px;
+    }
+    .oldprice{
+        font-size: 11px;
+    }
+}
+@media (max-width:389px) {
+    .card-items{
+        width: 170px;
+    }
+    .title{
+        font-size: 9px;
+    }
+    .newprice{
+        font-size: 10px;
+    }
+    .oldprice{
+        font-size: 10px;
+    }
+}
+@media (max-width:360px) {
+    .card-items{
+        width: 150px;
+    }
+    .title{
+        font-size: 8px;
+    }
+    .newprice{
+        font-size: 8px;
+    }
+    .oldprice{
+        font-size: 8px;
+    }
+}
+@media (max-width:330px) {
+    .card-items{
+        width: 280px;
+    }
+    .title{
+        font-size: 13px;
+    }
+    .newprice{
+        font-size: 13px;
+    }
+    .oldprice{
+        font-size: 13px;
+    }
+}
