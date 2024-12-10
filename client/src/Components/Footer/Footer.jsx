@@ -4,8 +4,7 @@ import logo from "../Assets/logo.png";
 
 import logoChar from "../Assets/mtChars.png";
 import logoLady from "../Assets/mtLady.png";
-import { FaInstagram } from "react-icons/fa6";
-import { AiOutlinePinterest } from "react-icons/ai";
+
 
 const Footer = () => {
   return (
@@ -36,15 +35,7 @@ const Footer = () => {
               Contact
             </a>
           </div>
-          <div class="flex gap-10">
-           
-            <a href="#" class="text-gray-600 text-xl sm:text-2xl hover:text-gray-800">
-              <FaInstagram />
-            </a>
-            <a href="#" class="text-gray-600 text-xl sm:text-2xl hover:text-gray-800">
-              <AiOutlinePinterest />
-            </a>
-          </div>
+         
         </div>
         <hr className="h-1 mx-20 mt-10 bg-gray-500" />
         <div className="flex text-xs sm:text-sm md:text:md ld:text-lg  justify-center py-5 text-gray-600 font-semibold">
