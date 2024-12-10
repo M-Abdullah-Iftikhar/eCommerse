@@ -8,7 +8,7 @@ const NewCollections = () => {
 
   const fetchData = async () => {
     setLoading(true); 
-    const response = await fetch('http://localhost:8000/newcollections');
+    const response = await fetch('hhttps://ecommerse-yj3l.onrender.com/newcollections');
     const data = await response.json();
     setNewCollection(data.newcollection);
     setLoading(false); 

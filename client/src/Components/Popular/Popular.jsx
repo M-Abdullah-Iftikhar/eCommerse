@@ -8,7 +8,7 @@ const Popular = () => {
 
   const fetchData = async () => {
     setLoading(true); 
-    const response = await fetch('http://localhost:8000/popularwomen');
+    const response = await fetch('https://ecommerse-yj3l.onrender.com/popularwomen');
     const data = await response.json();
     setPopularWomen(data.popularWomen);
     setLoading(false); 

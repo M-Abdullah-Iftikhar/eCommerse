@@ -12,7 +12,7 @@ const NotificationsPage = () => {
   // Fetch pending notifications
   const fetchPendingNotifications = async () => {
     try {
-      const response = await fetch("http://localhost:8000/orderNotificationFetch", {
+      const response = await fetch("https://ecommerse-yj3l.onrender.com/orderNotificationFetch", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -34,7 +34,7 @@ const NotificationsPage = () => {
   // Update notification status
   const updateNotificationStatus = async (id, status) => {
     try {
-      const response = await fetch("http://localhost:8000/orderNotificationUpdate", {
+      const response = await fetch("https://ecommerse-yj3l.onrender.com/orderNotificationUpdate", {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

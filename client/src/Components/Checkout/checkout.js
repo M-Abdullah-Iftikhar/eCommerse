@@ -53,7 +53,7 @@ const Checkout = () => {
   // };
   const sendOrderEmail = async (orderDetails) => {
     try {
-      const response = await fetch("http://localhost:8000/sendOrderEmail", {
+      const response = await fetch("https://ecommerse-yj3l.onrender.com/sendOrderEmail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

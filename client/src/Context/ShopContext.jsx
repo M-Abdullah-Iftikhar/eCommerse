@@ -18,7 +18,7 @@ const ShopContextProvider = (props) => {
   const [cartItem, setcartItem] = useState(getDefaultCart());
   const fetchProducts = async () => {
     try {
-      const response = await fetch("http://localhost:8000/allProducts");
+      const response = await fetch("https://ecommerse-yj3l.onrender.com/allProducts");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -33,7 +33,7 @@ const ShopContextProvider = (props) => {
   const getcartdata = async () => {
     if (localStorage.getItem("token")) {
       try {
-        const response = await fetch("http://localhost:8000/getcartData", {
+        const response = await fetch("https://ecommerse-yj3l.onrender.com/getcartData", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -75,7 +75,7 @@ const ShopContextProvider = (props) => {
 
     if (localStorage.getItem("token")) {
       try {
-        const response = await fetch("http://localhost:8000/addtocart", {
+        const response = await fetch("https://ecommerse-yj3l.onrender.com/addtocart", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -104,7 +104,7 @@ const ShopContextProvider = (props) => {
     // setOrderDetails(cartItem)
     if (localStorage.getItem("token")) {
       try {
-        const response = await fetch("http://localhost:8000/deletefromcart", {
+        const response = await fetch("https://ecommerse-yj3l.onrender.com/deletefromcart", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

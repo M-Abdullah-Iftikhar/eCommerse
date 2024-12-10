@@ -11,7 +11,7 @@ const NotificationsPage = () => {
   // Fetch pending notifications
   const fetchPendingNotifications = async () => {
     try {
-      const response = await fetch("http://localhost:8000/orderNotificationFetch", {
+      const response = await fetch("https://ecommerse-yj3l.onrender.com/orderNotificationFetch", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

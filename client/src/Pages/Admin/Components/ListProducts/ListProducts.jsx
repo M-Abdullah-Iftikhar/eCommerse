@@ -10,7 +10,7 @@ const ListProducts = () => {
 
   const fetchProducts = async () => {
     setLoading(true); // Start loading
-    const response = await fetch("http://localhost:8000/allproducts");
+    const response = await fetch("https://ecommerse-yj3l.onrender.com/allproducts");
     let allproducts = await response.json();
     allproducts = allproducts.product;
     setProducts(allproducts);
@@ -18,7 +18,7 @@ const ListProducts = () => {
   };
 
   const deleteProduct = async (id) => {
-    const response = await fetch('http://localhost:8000/deleteProducts', {
+    const response = await fetch('https://ecommerse-yj3l.onrender.com/deleteProducts', {
       method: "POST",
       headers: {
         'Content-Type': "application/json"
